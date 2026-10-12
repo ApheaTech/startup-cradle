@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "title": "创业摇篮 · Startup Cradle",
+    "updated_at": "2026-10-12",
+    "disclaimer": "本站仅为公开信息的策展目录，不构成投资建议、融资背书或尽职调查结论。每条「为何有潜力」基于可核验公开信号加一句判断；请自行核实。入选≠背书。"
+  },
+  "companies": [
+    {
+      "id": "mastra",
+      "name_zh": "Mastra",
+      "name_en": "Mastra",
+      "tagline": "开源 TypeScript 框架，用于构建 AI Agent 与工作流",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / AI Agents",
+      "why_potential": "YC W25；官网与开源仓均可访问，面向 TypeScript 技术栈补齐 Agent 框架缺口（相对 Python 生态更稀缺）。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/mastra"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mastra-ai/mastra"
+        }
+      ],
+      "website": "https://mastra.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/mastra-ai/mastra"
+    },
+    {
+      "id": "yuanmu-ai",
+      "name_zh": "圆木智能",
+      "name_en": "Yuanmu AI",
+      "tagline": "面向工厂报价、排程等场景的工业 AI Agent",
+      "founded_year": 2025,
+      "round": "angel",
+      "region": "CN",
+      "sector": "Industrial AI / Manufacturing",
+      "why_potential": "有可访问产物「今天排」（独立产品站）；另有公开天使轮报道可核验——观察点是工业排产落地，而非泛化聊天机器人。",
+      "signals": [
+        {
+          "label": "今天排产品站",
+          "url": "https://www.jintianpai.com/"
+        },
+        {
+          "label": "新浪科技融资报道",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-02-10/doc-inhmhvwt5763451.shtml"
+        }
+      ],
+      "website": "https://www.yuanmu.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "dynamia",
+      "name_zh": "密瓜智能",
+      "name_en": "Dynamia",
+      "tagline": "异构 GPU 虚拟化与调度平台（HAMi 开源脉络）",
+      "founded_year": 2025,
+      "round": "angel",
+      "region": "CN",
+      "sector": "Cloud Infra / GPU Ops",
+      "why_potential": "官网可访；团队与开源项目 HAMi 绑定清晰，楔子是多厂商 GPU 集群调度而非空泛「算力概念」。",
+      "signals": [
+        {
+          "label": "HAMi GitHub",
+          "url": "https://github.com/Project-HAMi/HAMi"
+        },
+        {
+          "label": "Dynamia 博客",
+          "url": "https://dynamia.ai/zh/blog/dynamia-ai-compute-efficiency"
+        }
+      ],
+      "website": "https://dynamia.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/Project-HAMi/HAMi"
+    },
+    {
+      "id": "adam",
+      "name_zh": "Adam",
+      "name_en": "Adam",
+      "tagline": "面向机械设计的 AI CAD 副驾驶（Text-to-CAD → 专业 CAD 工作流）",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / CAD",
+      "why_potential": "官网 adam.new 可访、有可装连接器与公开产品；YC W25 + TechCrunch seed 报道可核——观察点是硬件设计工具链，而非又一个聊天套壳。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/adam"
+        },
+        {
+          "label": "TechCrunch seed",
+          "url": "https://techcrunch.com/2025/10/31/yc-alum-adam-raises-4-1m-to-turn-viral-text-to-3d-tool-into-ai-copilot/"
+        }
+      ],
+      "website": "https://adam.new/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "browser-use",
+      "name_zh": "Browser Use",
+      "name_en": "Browser Use",
+      "tagline": "让 Agent 操控浏览器的开源与云端工具",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "AI Agents / Browser Automation",
+      "why_potential": "产品站与开源仓均可访；YC W25 + 公开仓库——楔子是「Agent 用浏览器」基础设施。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/browser-use"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/browser-use/browser-use"
+        }
+      ],
+      "website": "https://browser-use.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "id": "artificial-productivity",
+      "name_zh": "人工生产力",
+      "name_en": "Artificial Productivity",
+      "tagline": "具身 AI 玩偶/陪伴机器人（群体智能切入娱乐硬件）",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "CN",
+      "sector": "Consumer Robotics / Embodied AI",
+      "why_potential": "官网可访并展示产品矩阵；36氪种子轮报道可核——观察点是可交付硬件入口，而非纯概念 OS。",
+      "signals": [
+        {
+          "label": "36氪",
+          "url": "https://www.36kr.com/p/3412589113527684"
+        }
+      ],
+      "website": "https://artificial-productivity.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "agentmail",
+      "name_zh": "AgentMail",
+      "name_en": "AgentMail",
+      "tagline": "面向 AI Agent 的 API 优先邮箱收件箱",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Infrastructure / AI Agents",
+      "why_potential": "YC S25；把可编程收件箱做成产品，补齐传统邮箱提供商缺的 Agent 工作流基建。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/agentmail"
+        }
+      ],
+      "website": "https://www.agentmail.to/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "autumn",
+      "name_zh": "Autumn",
+      "name_en": "Autumn",
+      "tagline": "基于 Stripe 的开源计费基建，适配 AI 用量/积分定价",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "UK",
+      "sector": "Fintech Infra / Billing",
+      "why_potential": "YC S25；对准 AI 创业公司早期就会碰到的用量/积分定价痛点，产品站 useautumn.com 可访。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/autumn"
+        }
+      ],
+      "website": "https://useautumn.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "assistant-ui",
+      "name_zh": "assistant-ui",
+      "name_en": "assistant-ui",
+      "tagline": "面向生产环境的开源 React/TypeScript AI 聊天 UI 组件库",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / Frontend",
+      "why_potential": "YC W25；开源 UI 套件 + 文档站齐全，降低在应用内落地类 ChatGPT 体验的成本。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/assistant-ui"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/assistant-ui/assistant-ui"
+        }
+      ],
+      "website": "https://www.assistant-ui.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/assistant-ui/assistant-ui"
+    },
+    {
+      "id": "zeroentropy",
+      "name_zh": "ZeroEntropy",
+      "name_en": "ZeroEntropy",
+      "tagline": "面向生产级搜索/RAG 的专用 reranker 与 embedding",
+      "founded_year": null,
+      "round": "seed",
+      "region": "US",
+      "sector": "AI Infra / Search",
+      "why_potential": "YC W25，API 产品可访；RAG/Agent 栈扩散下，检索专用模型是可复用基建层。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/zeroentropy"
+        }
+      ],
+      "website": "https://zeroentropy.dev/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "pave-robotics",
+      "name_zh": "Pave Robotics",
+      "name_en": "Pave Robotics",
+      "tagline": "为市政道路自动灌缝的机器人",
+      "founded_year": null,
+      "round": "seed",
+      "region": "US",
+      "sector": "Robotics / Infrastructure",
+      "why_potential": "YC W25 硬件公司，产品站可访；道路养护任务边界清晰、效果可度量。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/pave-robotics"
+        }
+      ],
+      "website": "https://www.pave-robotics.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "asteroid",
+      "name_zh": "Asteroid",
+      "name_en": "Asteroid",
+      "tagline": "HIPAA 合规 Agent，自动化医疗 EHR、支付方门户与遗留桌面系统",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Healthtech / Automation",
+      "why_potential": "YC W25；瞄准医疗运营「无 API」最后一公里，平台站可访——若可靠性站得住，付费意愿高。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/asteroid"
+        }
+      ],
+      "website": "https://asteroid.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "maritime-fusion",
+      "name_zh": "Maritime Fusion",
+      "name_en": "Maritime Fusion",
+      "tagline": "面向船舶与离岸场景的船用聚变反应堆概念",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Energy / Deep Tech",
+      "why_potential": "YC W25 深科技，公开站点可访；切入航运脱碳中电网级聚变难落地的场景。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/maritime-fusion"
+        }
+      ],
+      "website": "https://www.maritimefusion.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "red-barn-robotics",
+      "name_zh": "Red Barn Robotics",
+      "name_en": "Red Barn Robotics",
+      "tagline": "田间自主除草机器人（农田版「扫地机」）",
+      "founded_year": 2023,
+      "round": "seed",
+      "region": "US",
+      "sector": "AgTech / Robotics",
+      "why_potential": "YC W25；农场用工短缺与除草剂抗性，使精准除草成为机器人落地的具体滩头。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/red-barn-robotics"
+        }
+      ],
+      "website": "https://www.redbarnrobotics.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "misprint",
+      "name_zh": "Misprint",
+      "name_en": "Misprint",
+      "tagline": "宝可梦与集换卡的透明买卖盘市场",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "Marketplace / Collectibles",
+      "why_potential": "YC W25 消费市场，交易站可访；卡牌定价不透明是真实痛点，且易产出可晒价格件。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/misprint"
+        }
+      ],
+      "website": "https://www.misprint.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "solidroad",
+      "name_zh": "Solidroad",
+      "name_en": "Solidroad",
+      "tagline": "面向客服培训与对话质检的 AI Agent",
+      "founded_year": 2023,
+      "round": "seed",
+      "region": "US",
+      "sector": "SaaS / Customer Experience",
+      "why_potential": "YC W25，产品可访；培训+质检切入呼叫中心 AI，比「全量替换坐席」风险更低。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/solidroad"
+        }
+      ],
+      "website": "https://www.solidroad.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "subtrace",
+      "name_zh": "Subtrace",
+      "name_en": "Subtrace",
+      "tagline": "零代码网络追踪：后端 HTTP 流量的「审查元素」",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / Observability",
+      "why_potential": "YC W25，产品与开源仓可访；一条命令看清请求，开发者钩子清晰。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/subtrace"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/subtrace/subtrace"
+        }
+      ],
+      "website": "https://subtrace.dev/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/subtrace/subtrace"
+    },
+    {
+      "id": "athenahq",
+      "name_zh": "AthenaHQ",
+      "name_en": "AthenaHQ",
+      "tagline": "AEO/GEO 平台：监测并提升品牌在 AI 搜索回答中的可见度",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "MarTech / SEO",
+      "why_potential": "YC W25；回答引擎兴起后品牌需要超越经典 SEO 的度量，AthenaHQ 提供可访的监测产品。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/athenahq"
+        }
+      ],
+      "website": "https://athenahq.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "confident-ai",
+      "name_zh": "Confident AI",
+      "name_en": "Confident AI",
+      "tagline": "LLM 评测、可观测、红队与治理平台（DeepEval 出品方）",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "AI Quality / MLOps",
+      "why_potential": "YC W25；开源 DeepEval + 商业质量平台，契合 AI 发布前的门禁需求。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/confident-ai"
+        },
+        {
+          "label": "DeepEval GitHub",
+          "url": "https://github.com/confident-ai/deepeval"
+        }
+      ],
+      "website": "https://www.confident-ai.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/confident-ai/deepeval"
+    },
+    {
+      "id": "weave",
+      "name_zh": "Weave",
+      "name_en": "Weave",
+      "tagline": "度量工程产出并为编程 Agent 路由提示的 AI 模型",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Productivity / Analytics",
+      "why_potential": "YC W25，产品可访；把 AI 编程花费与工程产出连起来，贴合 Agent 采用上升期。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/weave-3"
+        }
+      ],
+      "website": "https://weaveos.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "autosana",
+      "name_zh": "Autosana",
+      "name_en": "Autosana",
+      "tagline": "基于视觉的 AI Agent，做端到端移动端与 Web 测试",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / QA",
+      "why_potential": "YC S25；在编程 Agent 与脆弱 E2E 测试之间补闭环，产品站可访。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/autosana"
+        }
+      ],
+      "website": "https://autosana.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "airweave",
+      "name_zh": "Airweave",
+      "name_en": "Airweave",
+      "tagline": "开源上下文检索层，让 Agent 能搜索应用与数据库",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / AI Infra",
+      "why_potential": "YC Spring 2025，产品与开源仓可访；跨 SaaS 数据的 Agent 检索是可复用基建。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/airweave"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/airweave-ai/airweave"
+        }
+      ],
+      "website": "https://airweave.ai/",
+      "listed_at": "2026-10-12",
+      "status": "watching",
+      "repo": "https://github.com/airweave-ai/airweave"
+    },
+    {
+      "id": "blindpay",
+      "name_zh": "BlindPay",
+      "name_en": "BlindPay",
+      "tagline": "连接本地支付轨道、对公账户与合规的稳定币 API",
+      "founded_year": 2024,
+      "round": "seed",
+      "region": "US",
+      "sector": "Fintech / Payments",
+      "why_potential": "YC W25 支付基建，开发者站可访；稳定币↔本地轨道桥接是清晰的跨境楔子。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/blindpay"
+        }
+      ],
+      "website": "https://blindpay.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "mosense",
+      "name_zh": "模感科技",
+      "name_en": "MoSense",
+      "tagline": "面向机器人的多模态柔性电子皮肤与触觉传感",
+      "founded_year": 2026,
+      "round": "angel",
+      "region": "CN",
+      "sector": "Robotics / Sensors",
+      "why_potential": "成立极早（公开口径约 2026），产品站可访；投中网等有天使轮报道——触觉皮肤是具身 AI 稀缺硬件层。",
+      "signals": [
+        {
+          "label": "投中网",
+          "url": "https://m.pedaily.cn/news/566450"
+        }
+      ],
+      "website": "https://mosensetech.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "litchibot",
+      "name_zh": "厘清智能",
+      "name_en": "LitchiBot / Liqing Intelligence",
+      "tagline": "物理 AI 基建：数据采集、模型与跨本体部署",
+      "founded_year": 2026,
+      "round": "angel+",
+      "region": "CN",
+      "sector": "Robotics / Physical AI Infra",
+      "why_potential": "官网展示 T1 数据手套 / Ego 采集硬件；投中网有天使/天使+报道——走基建层而非单一机器人本体。",
+      "signals": [
+        {
+          "label": "投中网",
+          "url": "https://news.pedaily.cn/202610/569895.shtml"
+        }
+      ],
+      "website": "https://www.litchibot.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "baisheng-zhisuan",
+      "name_zh": "佰晟智算",
+      "name_en": "Baisheng Zhisuan / DBAIOps",
+      "tagline": "知识图谱 + AI Agent，面向国产/信创数据库运维",
+      "founded_year": 2025,
+      "round": "angel",
+      "region": "CN",
+      "sector": "Enterprise Software / DBOps",
+      "why_potential": "运维平台站可访；36氪有天使轮报道——信创库运维 + AI 楔子清楚。",
+      "signals": [
+        {
+          "label": "36氪",
+          "url": "https://www.36kr.com/p/3589507644047625"
+        }
+      ],
+      "website": "https://www.dbaiops.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "pole-interactive",
+      "name_zh": "珀乐互动",
+      "name_en": "Pole Interactive",
+      "tagline": "面向 AIGC 视频与剧本的 AI+IP 工具（珀乐视界 / 剧灵）",
+      "founded_year": 2024,
+      "round": "angel",
+      "region": "CN",
+      "sector": "AIGC / Entertainment",
+      "why_potential": "产品站可访；36氪有天使轮报道——IP 感知内容工具相对泛化生图更有差异化。",
+      "signals": [
+        {
+          "label": "36氪",
+          "url": "https://www.36kr.com/p/3735324365094918"
+        }
+      ],
+      "website": "https://poletech.com.cn/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "comospace",
+      "name_zh": "中科天算",
+      "name_en": "ComoSpace / Zhongke Tiansuan",
+      "tagline": "天基智能算力与星载超算硬件",
+      "founded_year": 2024,
+      "round": "angel+",
+      "region": "CN",
+      "sector": "Aerospace / Compute",
+      "why_potential": "公司站 comospace.com 可访；36氪有天使+报道——轨道侧 AI 基建国内早期玩家较少。主体名「中科天算」与品牌 ComoSpace 并存，已按官网主体收录。",
+      "signals": [
+        {
+          "label": "36氪",
+          "url": "https://www.36kr.com/p/3719746809492865"
+        }
+      ],
+      "website": "https://www.comospace.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "gestala",
+      "name_zh": "格式塔科技",
+      "name_en": "Gestala",
+      "tagline": "无创超声脑机接口与神经调控",
+      "founded_year": 2025,
+      "round": "angel+",
+      "region": "CN",
+      "sector": "Neurotech / BCI",
+      "why_potential": "科学/公司站可访；36氪等有天使与天使+披露——超声 BCI 相对植入优先路径是另一条技术路线。",
+      "signals": [
+        {
+          "label": "36氪",
+          "url": "https://www.36kr.com/p/3879230183452928"
+        }
+      ],
+      "website": "https://www.gestala.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "sentigent",
+      "name_zh": "深庭纪智能",
+      "name_en": "Sentigent",
+      "tagline": "家用/户外跟随陪伴机器人 Rovar，多模态交互",
+      "founded_year": 2024,
+      "round": "seed+",
+      "region": "CN",
+      "sector": "Consumer Robotics",
+      "why_potential": "产品站详述 Rovar X3；投中网有 seed+ 报道——户外跟随陪伴相对室内扫地机是另一消费切口。",
+      "signals": [
+        {
+          "label": "投中网",
+          "url": "https://news.pedaily.cn/202507/552054.shtml"
+        }
+      ],
+      "website": "https://www.sentigent.cn/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "knowin",
+      "name_zh": "诺因智能",
+      "name_en": "Knowin",
+      "tagline": "基于生成式世界模型 GLOW 的消费级家用具身机器人",
+      "founded_year": 2025,
+      "round": "angel+",
+      "region": "CN",
+      "sector": "Consumer Robotics / Embodied AI",
+      "why_potential": "Knowin-X1 品牌站可访；财联社等有早期轮次披露——家用具身 AI 融资节奏快，需持续核产物交付。",
+      "signals": [
+        {
+          "label": "财联社",
+          "url": "https://m.cls.cn/detail/2495637"
+        }
+      ],
+      "website": "https://knowinai.com/",
+      "listed_at": "2026-10-12",
+      "status": "watching"
+    }
+  ]
+}
