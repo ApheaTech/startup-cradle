@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "创业摇篮 · Startup Cradle",
-    "updated_at": "2026-10-12",
+    "updated_at": "2026-10-13",
     "disclaimer": "本站仅为公开信息的策展目录，不构成投资建议、融资背书或尽职调查结论。每条「为何有潜力」基于可核验公开信号加一句判断；请自行核实。入选≠背书。"
   },
   "companies": [
@@ -666,6 +666,55 @@
       ],
       "website": "https://knowinai.com/",
       "listed_at": "2026-10-12",
+      "status": "watching"
+    },
+    {
+      "id": "photon",
+      "name_zh": "Photon",
+      "name_en": "Photon",
+      "tagline": "开源框架：把 Agent 接到 iMessage / WhatsApp 等已有消息通道",
+      "founded_year": null,
+      "round": "seed｜2026-10（TC）",
+      "region": "US",
+      "sector": "Developer Tools / AI Agents",
+      "why_potential": "开源与文档可核；把 Agent 接到 iMessage/WhatsApp 等已有消息通道（TC 报道 seed）。",
+      "signals": [
+        {
+          "label": "TechCrunch $4.5M seed",
+          "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.photon.codes/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/photon-hq"
+        }
+      ],
+      "website": "https://photon.codes/",
+      "listed_at": "2026-10-13",
+      "status": "watching",
+      "repo": "https://github.com/photon-hq"
+    },
+    {
+      "id": "lemma",
+      "name_zh": "Lemma",
+      "name_en": "Lemma",
+      "tagline": "面向 AI Agent 的生产监控：抓静默失败与指令偏离",
+      "founded_year": 2025,
+      "round": "seed",
+      "region": "US",
+      "sector": "AI Quality / Observability",
+      "why_potential": "专盯 Agent 线上「看起来成功其实跑偏」的静默故障，赛道干净；YC F25 与产品站均可核。",
+      "signals": [
+        {
+          "label": "YC F25",
+          "url": "https://www.ycombinator.com/companies/uselemma"
+        }
+      ],
+      "website": "https://www.uselemma.ai/",
+      "listed_at": "2026-10-13",
       "status": "watching"
     }
   ]
