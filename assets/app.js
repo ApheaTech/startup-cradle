@@ -14,7 +14,18 @@ function escapeHtml(s) {
     .replaceAll('"', "&quot;");
 }
 
-function renderCard(c) {
+function truncateWhy(text, maxChars = 28) {
+  const chars = Array.from(text);
+  if (chars.length <= maxChars) return text;
+  return chars.slice(0, maxChars).join("") + "…";
+}
+
+function cardUrl(anchorId) {
+  return `https://apheatech.github.io/startup-cradle/#${encodeURIComponent(anchorId)}`;
+}
+
+function renderCard(c, index) {
+  const anchorId = escapeHtml(c.id || `company-${index}`);
   const signals = (c.signals || [])
     .map(
       (s) =>
@@ -22,8 +33,9 @@ function renderCard(c) {
     )
     .join("");
   const year = c.founded_year ? `${c.founded_year}` : "年份待核";
+  const shareText = `创业摇篮新入 · ${c.name_zh} — ${truncateWhy(c.why_potential)} · ${cardUrl(anchorId)}`;
   return `
-  <article class="card" data-region="${escapeHtml(c.region)}" data-sector="${escapeHtml(c.sector)}" data-status="${escapeHtml(c.status)}" data-text="${escapeHtml((c.name_zh + " " + c.name_en + " " + c.tagline + " " + c.sector).toLowerCase())}">
+  <article class="card" id="${anchorId}" data-region="${escapeHtml(c.region)}" data-sector="${escapeHtml(c.sector)}" data-status="${escapeHtml(c.status)}" data-text="${escapeHtml((c.name_zh + " " + c.name_en + " " + c.tagline + " " + c.sector).toLowerCase())}">
     <div class="card-top">
       <div class="names">
         <h2>${escapeHtml(c.name_zh)}</h2>
@@ -41,9 +53,24 @@ function renderCard(c) {
     <ul class="signals">${signals}</ul>
     <div class="card-foot">
       <span>收录 ${escapeHtml(c.listed_at)}</span>
-      <a class="exhibit-link" href="${escapeHtml(c.website)}" target="_blank" rel="noopener noreferrer">访问产物</a>
+      <div class="card-actions">
+        <button type="button" class="copy-label" data-share="${escapeHtml(shareText)}" aria-label="复制展签">复制展签</button>
+        <a class="exhibit-link" href="${escapeHtml(c.website)}" target="_blank" rel="noopener noreferrer">访问产物</a>
+      </div>
     </div>
   </article>`;
+}
+
+let toastTimeout;
+function showToast(message) {
+  const toast = $("#toast");
+  if (!toast) return;
+  toast.textContent = message;
+  toast.hidden = false;
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => {
+    toast.hidden = true;
+  }, 1800);
 }
 
 function fillSelect(id, values) {
@@ -95,6 +122,29 @@ async function main() {
       companies.map(renderCard).join("") +
       `<div class="empty" id="empty" hidden>没有匹配的公司。试试清空筛选。</div>`;
   }
+
+  grid.addEventListener("click", async (e) => {
+    const btn = e.target.closest(".copy-label");
+    if (!btn) return;
+    e.preventDefault();
+    const text = btn.dataset.share;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        throw new Error("clipboard unavailable");
+      }
+    } catch {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("aria-hidden", "true");
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+    }
+    showToast("已复制展签");
+  });
 
   fillSelect("#region", new Set(companies.map((c) => c.region).filter(Boolean)));
   fillSelect("#sector", new Set(companies.map((c) => c.sector).filter(Boolean)));
