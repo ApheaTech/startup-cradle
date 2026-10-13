@@ -41,7 +41,7 @@ function renderCard(c) {
     <ul class="signals">${signals}</ul>
     <div class="card-foot">
       <span>收录 ${escapeHtml(c.listed_at)}</span>
-      <a class="btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener noreferrer">官网</a>
+      <a class="exhibit-link" href="${escapeHtml(c.website)}" target="_blank" rel="noopener noreferrer">访问产物</a>
     </div>
   </article>`;
 }
