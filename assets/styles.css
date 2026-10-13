@@ -183,6 +183,7 @@ select { min-width: 8.5rem; }
   align-items: center;
   font-size: 0.82rem;
   color: var(--muted);
+  opacity: 0.75;
 }
 .exhibit-link {
   color: var(--accent);
