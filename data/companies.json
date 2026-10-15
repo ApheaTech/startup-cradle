@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "创业摇篮 · Startup Cradle",
-    "updated_at": "2026-10-13",
+    "updated_at": "2026-10-15",
     "disclaimer": "本站仅为公开信息的策展目录，不构成投资建议、融资背书或尽职调查结论。每条「为何有潜力」基于可核验公开信号加一句判断；请自行核实。入选≠背书。"
   },
   "companies": [
@@ -715,6 +715,46 @@
       ],
       "website": "https://www.uselemma.ai/",
       "listed_at": "2026-10-13",
+      "status": "watching"
+    },
+    {
+      "id": "reason-machines",
+      "name_zh": "Reason Machines",
+      "name_en": "Reason Machines",
+      "tagline": "连 GitHub 派 issue，产出带录屏/日志的 review-ready PR 的编程 Agent",
+      "founded_year": 2026,
+      "round": "seed",
+      "region": "US",
+      "sector": "Developer Tools / AI Agents",
+      "why_potential": "YC Spring 2026；Web 产物可访——派 issue 后给带录屏/日志的 review-ready PR，楔子是证据完备的编程 Agent，而非又一个聊天框。",
+      "signals": [
+        {
+          "label": "YC",
+          "url": "https://www.ycombinator.com/companies/reason-machines"
+        }
+      ],
+      "website": "https://reasonmachines.com/",
+      "listed_at": "2026-10-15",
+      "status": "watching"
+    },
+    {
+      "id": "scanark",
+      "name_zh": "景立构",
+      "name_en": "ScanArk",
+      "tagline": "原生 3DGS 具身仿真基建（Atlas / Halo 空间相机）",
+      "founded_year": null,
+      "round": "Pre-天使｜累计数千万元",
+      "region": "CN",
+      "sector": "Robotics / Spatial AI",
+      "why_potential": "官网展示 Atlas/Halo 可访；投中网 Pre-天使可核——观察点是 Reality-to-Sim 训练基建，而非空泛「世界模型」叙事。",
+      "signals": [
+        {
+          "label": "投中网",
+          "url": "https://www.chinaventure.com.cn/news/114-20261008-393522.html"
+        }
+      ],
+      "website": "https://www.scanark.net/",
+      "listed_at": "2026-10-15",
       "status": "watching"
     }
   ]
